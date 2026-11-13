@@ -1,0 +1,9 @@
+# secrets: never commit your API key
+.env
+
+# large / rebuildable caches and local review notes
+data/uploads_cache.json
+data/*.txt
+data/playlist_candidates.json
+__pycache__/
+.claude/

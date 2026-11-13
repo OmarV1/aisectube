@@ -1,0 +1,495 @@
+{
+"1sd26pWhfmg": [
+"ai-cyber",
+"llm-security"
+],
+"L5pUA3LsEaw": [
+"alignment"
+],
+"xoVJKj8lcNQ": [
+"ai-risk"
+],
+"hEUO6pjwFOo": [
+"alignment"
+],
+"NnV_cWeoo5Q": [
+"llm-security"
+],
+"viJt_DXTfwA": [
+"alignment"
+],
+"kErHiET5YPw": [
+"ai-risk"
+],
+"h0962biiZa4": [
+"ai-risk"
+],
+"zkbPdEHEyEI": [
+"alignment"
+],
+"hhiLw5Q_UFg": [
+"alignment"
+],
+"ISkAkiAkK7A": [
+"ai-risk",
+"alignment"
+],
+"LWiM-LuRe6w": [
+"ai-risk"
+],
+"tcdVC4e6EV4": [
+"ai-risk"
+],
+"kMLKbhY0ji0": [
+"ai-risk"
+],
+"GyFkWb903aU": [
+"alignment"
+],
+"7PKx3kS7f4A": [
+"alignment"
+],
+"540vzMlf-54": [
+"ai-risk"
+],
+"nKJlF-olKmg": [
+"alignment"
+],
+"-p2il-V-0fk": [
+"adversarial-ml"
+],
+"5qfIgCiYlfY": [
+"ai-risk"
+],
+"144uOfr4SYA": [
+"ai-risk"
+],
+"7xij6SoCClI": [
+"governance",
+"ai-risk"
+],
+"Pp9MwZkHiMQ": [
+"adversarial-ml"
+],
+"Xx4Tpsk_fnM": [
+"alignment"
+],
+"JAcwtV_bFp4": [
+"alignment"
+],
+"YhgYMH6n004": [
+"deepfakes-misuse"
+],
+"ZdhyM5jHu0s": [
+"governance"
+],
+"6n2eDcRjSsk": [
+"deepfakes-misuse",
+"llm-security"
+],
+"NxOehfOfB6c": [
+"llm-security"
+],
+"B_7RpP90rUk": [
+"ai-cyber",
+"llm-security"
+],
+"mUfJOQKdtAk": [
+"deepfakes-misuse"
+],
+"giT0ytynSqg": [
+"ai-risk"
+],
+"X50zezLFWWI": [
+"ai-risk",
+"safety-evals"
+],
+"kopoLzvh5jY": [
+"alignment"
+],
+"Ao4jwLwT36M": [
+"alignment"
+],
+"5KVDDfAkRgc": [
+"ai-risk"
+],
+"RheZlFj3Zp8": [
+"ai-risk"
+],
+"D8GOeCFFby4": [
+"interpretability"
+],
+"qrvK_KuIeJk": [
+"ai-risk"
+],
+"GYQrNfSmQ0M": [
+"ai-risk"
+],
+"L_1plTXF-FE": [
+"prompt-injection"
+],
+"tr1tTJk32uk": [
+"prompt-injection",
+"llm-security"
+],
+"-YJgcTCSzU0": [
+"prompt-injection",
+"llm-security"
+],
+"5TFn13QOpU4": [
+"llm-security"
+],
+"8rptE4vVWn4": [
+"llm-security"
+],
+"GJVSDjRXVoo": [
+"prompt-injection"
+],
+"BwltbhR0JgU": [
+"jailbreaks"
+],
+"WvmeTaFc_Qw": [
+"alignment"
+],
+"VcVfceTsD0A": [
+"ai-risk",
+"governance"
+],
+"XcNlv9gp20o": [
+"ai-risk"
+],
+"0pgEMWy70Qk": [
+"alignment"
+],
+"7wy3xyoXYt8": [
+"ai-risk"
+],
+"luXnftoxCaM": [
+"ai-risk"
+],
+"XnnjvIqf4fU": [
+"alignment"
+],
+"Gw_hnD7m00M": [
+"ai-risk"
+],
+"VRjgNgJms3Q": [
+"alignment"
+],
+"WX_vN1QYgmE": [
+"ai-risk"
+],
+"BtnvfVc8z8o": [
+"alignment"
+],
+"sZzcSX7BFVA": [
+"red-teaming",
+"llm-security"
+],
+"piYnd_wYlT8": [
+"adversarial-ml"
+],
+"zQ_uMenoBCk": [
+"adversarial-ml"
+],
+"HvZAZFztlO0": [
+"adversarial-ml"
+],
+"-OdOmU58zOw": [
+"adversarial-ml"
+],
+"kaExCim2H9s": [
+"adversarial-ml",
+"llm-security"
+],
+"1cSw4fXYqWI": [
+"adversarial-ml"
+],
+"6ROlMFlbkWE": [
+"privacy"
+],
+"7bx9UfDHf_k": [
+"llm-security"
+],
+"PrSYYaZCxsc": [
+"llm-security"
+],
+"8rOY3aD1yxY": [
+"ai-cyber",
+"llm-security"
+],
+"_UAlYumHLQQ": [
+"llm-security"
+],
+"927W6zzvV-c": [
+"llm-security",
+"red-teaming"
+],
+"-3p2F5HWdSY": [
+"llm-security"
+],
+"ldEJq_JxYuM": [
+"governance"
+],
+"_3okhTwa7w4": [
+"llm-security"
+],
+"GnO4dRHBzKI": [
+"governance"
+],
+"F6HSsVIkqIU": [
+"deepfakes-misuse"
+],
+"7XchCsYtYMQ": [
+"deepfakes-misuse"
+],
+"I3l4XLZ59iw": [
+"deepfakes-misuse"
+],
+"Yb1GCjmw8_8": [
+"deepfakes-misuse"
+],
+"AmUC4m6w1wo": [
+"deepfakes-misuse"
+],
+"8nt3edWLgIg": [
+"ai-risk"
+],
+"JL5OFXeXenA": [
+"ai-risk"
+],
+"2ziuPUeewK0": [
+"ai-risk"
+],
+"qkHdF8tuKeU": [
+"privacy"
+],
+"ugvHCXCOmm4": [
+"ai-risk"
+],
+"HjurAWAr_nY": [
+"ai-risk"
+],
+"ppf3VqpsryU": [
+"alignment"
+],
+"wrESBnPYoZU": [
+"ai-risk"
+],
+"2Nn0-kAE5c0": [
+"ai-risk"
+],
+"uqC4nb7fLpY": [
+"governance"
+],
+"FLcrvMfHUJM": [
+"ai-risk"
+],
+"S72ZRBSNHZc": [
+"ai-cyber",
+"governance"
+],
+"MPTNHrq_4LU": [
+"governance"
+],
+"8zIcP5WlShw": [
+"governance"
+],
+"bs5snugP1VA": [
+"alignment"
+],
+"I9aGC6Ui3eE": [
+"alignment"
+],
+"2MBJOuVq380": [
+"alignment"
+],
+"XSQ495wpWXs": [
+"alignment"
+],
+"aA7oQ5A3KQc": [
+"llm-security"
+],
+"xCUala5j7aQ": [
+"ai-risk"
+],
+"jZjmlJPJgug": [
+"privacy"
+],
+"8AvIErXFoH8": [
+"alignment"
+],
+"INGOC6-LLv0": [
+"ai-cyber",
+"llm-security"
+],
+"cZLdWtcSE04": [
+"llm-security"
+],
+"ZhM29Ds-mBg": [
+"alignment"
+],
+"gP4ZNUHdwp8": [
+"ai-risk"
+],
+"w65p_IIp6JY": [
+"alignment"
+],
+"eaYIU6YXr3w": [
+"alignment"
+],
+"zATXsGm_xJo": [
+"ai-risk"
+],
+"xkQSiS8hpZA": [
+"ai-risk"
+],
+"K8p8_VlFHUk": [
+"alignment"
+],
+"mukaRhQTMP8": [
+"ai-risk",
+"alignment"
+],
+"KsZI5oXBC0k": [
+"ai-risk",
+"alignment"
+],
+"0Uo4soSTe3Q": [
+"alignment"
+],
+"z4M6vN31Vc0": [
+"ai-risk",
+"alignment"
+],
+"V0aXMTpZTfc": [
+"ai-risk"
+],
+"9AAhTLa0dT0": [
+"alignment"
+],
+"M2IebCN9Ht4": [
+"adversarial-ml"
+],
+"rGgGOccMEiY": [
+"ai-risk"
+],
+"ekIL65D0R3o": [
+"privacy"
+],
+"gI0wk1CXlsQ": [
+"privacy"
+],
+"vsA4w3itxA0": [
+"privacy"
+],
+"pT19VwBAqKA": [
+"privacy"
+],
+"RWpG0ag6j9c": [
+"privacy"
+],
+"v5ghK6yUJv4": [
+"ai-cyber"
+],
+"23Mz7qcRz50": [
+"prompt-injection",
+"llm-security"
+],
+"MaFTqjYjADw": [
+"ai-risk"
+],
+"ydnOSMbyyQo": [
+"ai-risk"
+],
+"SS9DMr4VkbY": [
+"adversarial-ml"
+],
+"CMHL1bPtQdI": [
+"prompt-injection",
+"llm-security"
+],
+"qyTSOSDEC5M": [
+"prompt-injection",
+"llm-security"
+],
+"_zfN9wnPvU0": [
+"deepfakes-misuse"
+],
+"VUwBcTgzbtU": [
+"privacy"
+],
+"aLx2q-UnH6M": [
+"prompt-injection"
+],
+"qpoRO378qRY": [
+"ai-risk"
+],
+"17_HcR95YBc": [
+"ai-risk"
+],
+"3JH_Zd2mNRs": [
+"ai-risk",
+"alignment"
+],
+"aX8phGhG8VQ": [
+"alignment"
+],
+"9WfZuNceFDM": [],
+"15q41GjtyZs": [],
+"-DysigzGQvU": [],
+"wrHXA2cSpNU": [],
+"TwNlPI8u1NI": [],
+"fqye4Cw0EF0": [],
+"34AmKPJNfCg": [],
+"B_qWUVi52yY": [],
+"9d9pZi7uZQs": [],
+"uyjSTAOY7yI": [],
+"Wm3squcz7Aw": [],
+"3vHvOyZ0GbY": [],
+"8OJnkJqkyio": [],
+"40lOIZLUACU": [],
+"uo7nAfUZoIM": [],
+"lSM-9RBk3HQ": [],
+"wYSmp-nrJ7M": [],
+"4lQkQSmA8nA": [],
+"JkUF40kPV4M": [],
+"C9LDMzMRZv8": [],
+"duo-tHbSdMk": [],
+"iXqLTJFTUGc": [],
+"imOreIfpzsU": [],
+"ntYeLhST3AU": [],
+"x4yyBWkYSHs": [],
+"NGfGw1tGxUY": [],
+"LE3bGTaAgOE": [],
+"rnDmwW2x16s": [],
+"sXG8CO6aB5w": [],
+"Hfom0noLFq0": [],
+"IdK2WKg7kaM": [],
+"yio0XtbpBwQ": [],
+"WS7xmb3UhCU": [],
+"xkNAbgS6b5g": [],
+"iwBOQeFPAwg": [],
+"AKbltBLaFeI": [],
+"9IMwRIei-Xc": [],
+"Zy7XhkQkUlk": [],
+"xfMQ7hzyFW4": [],
+"O-2tpwW0kmU": [],
+"9CO6M2HsoIA": [],
+"-TnsQHdI4eo": [],
+"-JlxuQ7tPgQ": [],
+"cWHTyeQg79A": [],
+"5GISvEfdbm4": [],
+"oxXpB9pSETo": [],
+"F4G6GNFz0O8": [],
+"IvY-Abd2FfM": [],
+"LWLadJFI8Pk": [],
+"vW26TB6Rdic": [],
+"0p-nNSvB7KA": [],
+"16BvgmfiYzQ": [],
+"pB02u0ntQpM": [],
+"PRcE_O1oXIE": [],
+"rL9UCGVZEjs": [],
+"zQMKfuWZRdA": [],
+"pUSWa5hOCtU": []
+}
