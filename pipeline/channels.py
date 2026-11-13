@@ -234,10 +234,14 @@ def recent_update(pages=2):
     known = {v["id"] for v in existing}
     by_name = {name: mode for cid, name, mode, *cap in CHANNELS + POLICY_CHANNELS + FOUND_CHANNELS}
     kept = [v for v in existing if v.get("mode") == "curated" or (v["channel"] in by_name and keep(v, v["mode"]))]
+    # only genuinely new uploads: older videos were already judged by the last full refresh (filters + caps)
+    import datetime
+    since = (datetime.date.today() - datetime.timedelta(days=60)).isoformat()
     new = []
     for cid, name, mode, *cap in CHANNELS + POLICY_CHANNELS + FOUND_CHANNELS:
         ups = uploads(cid, max_pages=pages)
-        k = [dict(v, channel=name, channel_id=cid, mode=mode) for v in ups if v["id"] not in known and keep(v, mode)]
+        k = [dict(v, channel=name, channel_id=cid, mode=mode) for v in ups
+             if v["id"] not in known and v.get("published", "") >= since and keep(v, mode)]
         if k:
             print(f"{name:28} +{len(k)} new candidates", file=sys.stderr)
         new += k
