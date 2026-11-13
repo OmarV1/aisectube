@@ -39,8 +39,14 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
-          rm -f ../data/uploads_cache.json   # re-read channel uploads so new videos are found
-          python channels.py
+          if [ "$(date +%d)" -le 7 ]; then
+            echo "First week of the month: full refresh (re-reads every channel's history, ~30 min)"
+            rm -f ../data/uploads_cache.json
+            python channels.py
+          else
+            echo "Quick refresh: newest uploads per channel only (~2 min)"
+            python channels.py --recent
+          fi
           python courses.py
           python classify.py
 

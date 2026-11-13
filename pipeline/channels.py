@@ -168,10 +168,12 @@ def curated_videos():
     return out
 
 
-def uploads(cid):
+def uploads(cid, max_pages=None):
+    """All uploads of a channel (or items of a playlist), newest first. max_pages=N reads only the newest N*50."""
     pl = cid if cid.startswith("PL") else "UU" + cid[2:]   # playlist id, or the channel's uploads playlist
-    items, tok = [], None
+    items, tok, pages = [], None, 0
     while True:
+        pages += 1
         p = dict(part="snippet", playlistId=pl, maxResults=50)
         if tok:
             p["pageToken"] = tok
@@ -183,7 +185,7 @@ def uploads(cid):
                 items.append({"id": vid, "title": s["title"], "published": s.get("publishedAt", "")[:10],
                               "desc": (s.get("description") or "")[:400]})
         tok = d.get("nextPageToken")
-        if not tok:
+        if not tok or (max_pages and pages >= max_pages):
             return items
 
 
@@ -225,7 +227,31 @@ def keep(v, mode):
     return bool(STRICT_AI.search(t) and (SEC.search(t) or on_topic))
 
 
+def recent_update(pages=2):
+    """Quick weekly mode: read only each channel's newest uploads (pages*50) and merge them into the existing
+    data/channel_videos.json. Existing entries are re-checked against the current filters; nothing is re-downloaded."""
+    existing = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else []
+    known = {v["id"] for v in existing}
+    by_name = {name: mode for cid, name, mode, *cap in CHANNELS + POLICY_CHANNELS + FOUND_CHANNELS}
+    kept = [v for v in existing if v.get("mode") == "curated" or (v["channel"] in by_name and keep(v, v["mode"]))]
+    new = []
+    for cid, name, mode, *cap in CHANNELS + POLICY_CHANNELS + FOUND_CHANNELS:
+        ups = uploads(cid, max_pages=pages)
+        k = [dict(v, channel=name, channel_id=cid, mode=mode) for v in ups if v["id"] not in known and keep(v, mode)]
+        if k:
+            print(f"{name:28} +{len(k)} new candidates", file=sys.stderr)
+        new += k
+    known_curated = {v["id"] for v in existing if v.get("mode") == "curated"}
+    new += [v for v in curated_videos() if v["id"] not in known_curated and v["id"] not in known]
+    det = details([v["id"] for v in new])
+    added = [dict(v, **det[v["id"]]) for v in new if v["id"] in det and det[v["id"]]["duration_s"] >= 150]
+    OUT.write_text(json.dumps(kept + added, indent=0, ensure_ascii=False), encoding="utf-8")
+    print(f"quick update: {len(kept)} kept, {len(existing) - len(kept)} dropped by filters, {len(added)} new -> {OUT}")
+
+
 def main():
+    if "--recent" in sys.argv:
+        return recent_update()
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
     picked = []
     caps = {}
