@@ -8,12 +8,12 @@ Open `site/index.html` in a browser (works offline from disk), or serve the `sit
 recommendation profile live in each viewer's browser (`localStorage`), with Export/Import in the sidebar.
 
 ## Hosting & weekly updates
-- `site/` is published to GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`.
+- Live at **https://aisectube.com**, hosted on **Cloudflare Pages** (project `aisectube`, output directory `site`,
+  no build command). Cloudflare deploys automatically on every push to `main` and gives each pull request a preview link.
+- `.github/workflows/deploy.yml` only keeps the old `omarv1.github.io/aisectube` address redirecting to aisectube.com.
 - `.github/workflows/weekly-update.yml` runs every Monday: it re-reads only the curated sources, applies the
   same filters, and opens a pull request listing new videos. **Merge it to publish; close it to skip.**
 - Needs one repository secret: `YOUTUBE_API_KEY` (Settings -> Secrets and variables -> Actions).
-- Custom domain: add a `site/CNAME` file containing the domain, point the domain's DNS at GitHub Pages,
-  then set it under Settings -> Pages.
 
 ## How the data is built
 ```

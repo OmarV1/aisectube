@@ -1,10 +1,12 @@
-# Publishes the site/ folder to GitHub Pages whenever main changes (e.g. after you approve a weekly update).
-name: Deploy site
+# The site is hosted on Cloudflare Pages (aisectube.com), which deploys automatically on every push to main.
+# This workflow only keeps the old GitHub Pages address (omarv1.github.io/aisectube) alive as a redirect
+# to aisectube.com, preserving deep links such as #/watch/VIDEO_ID.
+name: Redirect old GitHub Pages address
 
 on:
   push:
     branches: [main]
-    paths: ["site/**", ".github/workflows/deploy.yml"]
+    paths: [".github/workflows/deploy.yml"]
   workflow_dispatch: {}
 
 permissions:
@@ -17,16 +19,30 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  redirect:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Build redirect page
+        run: |
+          mkdir -p redirect
+          cat > redirect/index.html <<'EOF'
+          <!doctype html><html lang="en"><head><meta charset="utf-8">
+          <title>AISec Tube has moved</title>
+          <meta name="robots" content="noindex">
+          <link rel="canonical" href="https://aisectube.com/">
+          <meta http-equiv="refresh" content="0; url=https://aisectube.com/">
+          <script>location.replace("https://aisectube.com/" + location.search + location.hash);</script>
+          </head><body style="font-family:system-ui;padding:40px">
+          AISec Tube has moved to <a href="https://aisectube.com/">aisectube.com</a>.
+          </body></html>
+          EOF
+          cp redirect/index.html redirect/404.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: site
+          path: redirect
       - id: deployment
         uses: actions/deploy-pages@v4
