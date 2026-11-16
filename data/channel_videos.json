@@ -40525,5 +40525,104 @@
 "mode": "reg",
 "duration_s": 1900,
 "views": 193
+},
+{
+"id": "bmoCcesBvI4",
+"title": "Black Hat USA 2026 | AI and the Future of Cyber Defense Panel",
+"published": "2026-11-13",
+"desc": "AI and Cyber from Frontier AI models are crossing capability thresholds that reshape both the offensive and defensive sides of cybersecurity. They can now meaningfully accelerate vulnerability discovery, exploit development, and attack execution — compressing timelines for attackers targeting critical infrastructure. At the same time, these capabilities offer defenders an asymmetric advantage if d",
+"channel": "Black Hat",
+"channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
+"mode": "ai",
+"duration_s": 2461,
+"views": 3300
+},
+{
+"id": "MspRSCAb6uI",
+"title": "Black Hat USA 2026 | ChatMate: Remote Prompt Execution on AI Assistants through Sandbox Escaping",
+"published": "2026-11-13",
+"desc": "Imagine a user asks an LLM a question about a document. An attacker then gains an interactive prompt on the user's chat session, enabling the attacker to instruct the AI assistant to take actions on behalf of the victim.\n\nIn this Briefing, we will reveal a novel vulnerability class we call \"Remote Prompt Execution\" where, similar to remote code execution, an attacker is able to \"run\" arbitrary pro",
+"channel": "Black Hat",
+"channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
+"mode": "ai",
+"duration_s": 2184,
+"views": 3238
+},
+{
+"id": "42PxMjVnqQM",
+"title": "OffensiveCon26 Tokyo - Samuel Groß and Michael Lippautz - V8 Security in the Age of AI",
+"published": "2026-11-16",
+"desc": "100 Exploits Later: V8 Security in the Age of AI\nhttps://www.offensivecon.jp/speakers/2026/michael-lippautz-and-samuel-gross.html",
+"channel": "OffensiveCon",
+"channel_id": "UCMNvAtT4ak2azKNk6UlB1QQ",
+"mode": "ai",
+"duration_s": 1958,
+"views": 60
+},
+{
+"id": "4XqexiQSx_Y",
+"title": "Reinforcement Learning with GRPO, Clearly Explained!!!",
+"published": "2026-11-16",
+"desc": "In 2024, the GRPO method for training Reasoning Models took the world by storm by simplifying the Reinforcement Learning stage of aligning a Large Language Model. In this StatQuest, we go through the GRPO loss function one step at at time, learning exactly what it does and how it does it. BAM!\n\nNOTE: This StatQuest assumes that you are already familiar with...\nThe Main Ideas of Neural Networks: ht",
+"channel": "StatQuest",
+"channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
+"mode": "fall",
+"duration_s": 1591,
+"views": 8824
+},
+{
+"id": "x7iwI6WfWS0",
+"title": "AI Can Do Everything…Except This",
+"published": "2026-11-14",
+"desc": "After finishing this song, it took me 3 months to gather the courage to stand in front of the camera to record it. Hope you Fellow Scholars enjoy it! Thank you so much for the amazing musicians for their help!\n- Vocals: Carolina Padrón\n- Drums: Federico Gucciardo\n- Bass: Phil Gonnand\n- Saxophone: Dima Faustov\n- Guitar: Jens Ambrosch\n- Guitar: Dr. Károly Zsolnai-Fehér\n\nIf you wish to play a cover, ",
+"channel": "Two Minute Papers",
+"channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+"mode": "fall",
+"duration_s": 363,
+"views": 46664
+},
+{
+"id": "qh5tP6PBZ6U",
+"title": "How AI Agent Memory Works: MemGPT & Memory Types | Stanford CS329Z Lecture 7 with Michael Ryan",
+"published": "2026-11-15",
+"desc": "Browse Stanford's online courses in Agentic AI: https://stanford.io/4AIRb2z \n\nLecture Overview: \nWhy do AI agents forget, and how do you give them memory? In this Stanford CS329Z: Engineering AI Agents lecture, Michael Ryan explains the four types of agent memory (working, episodic, semantic, procedural), how to store memories in files, databases, or knowledge graphs, and the main architecture pat",
+"channel": "Stanford Online",
+"channel_id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+"mode": "ffilter",
+"duration_s": 4735,
+"views": 20278
+},
+{
+"id": "JC_pLC5EX_w",
+"title": "AI Agent Design Patterns: ReAct, CodeAct & More | Stanford CS329Z Lecture 6 with Michael Ryan",
+"published": "2026-11-14",
+"desc": "Browse Stanford's online courses in Agentic AI: https://stanford.io/4AIRb2z \n\nSelf-paced online Agentic AI course: https://online.stanford.edu/programs/agentic-ai?utm_source=youtube&utm_medium=social&utm_content=cs329z-01-what-are-agentic-systems\n\nLecture Overview:\nWhen should you build a workflow instead of an agent, and which design patterns work best? In this Stanford CS329Z: Engineering AI Age",
+"channel": "Stanford Online",
+"channel_id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+"mode": "ffilter",
+"duration_s": 4611,
+"views": 32242
+},
+{
+"id": "nU2a2lm6vDE",
+"title": "Stanford CME295 Transformers & LLMs | Autumn 2026 | Lecture 6 - AI Agents",
+"published": "2026-11-13",
+"desc": "For more information about Stanford’s graduate programs, visit: \nhttps://stanford.io/grad-ed-cme295-A2026\n\nTo follow along with the course schedule and syllabus, visit: https://cme295.stanford.edu/syllabus/\n\nChapters:\n00:00:00 Introduction\n00:08:53 Retrieval-augmented generation (RAG)\n00:17:12 Candidate retrieval (bi-encoder, cross-encoder, BM25)\n00:28:36 Re-ranking\n00:35:16 Retrieval evaluation (",
+"channel": "Stanford Online",
+"channel_id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+"mode": "ffilter",
+"duration_s": 6044,
+"views": 167833
+},
+{
+"id": "q0Q-Hy8TTps",
+"title": "DSPy vs. LangGraph: AI Agent Frameworks Explained | Stanford CS329Z Lecture 5 with Michael Ryan",
+"published": "2026-11-13",
+"desc": "Browse Stanford's online courses in Agentic AI: https://stanford.io/4AIRb2z \n\nSelf-paced online Agentic AI course: https://online.stanford.edu/programs/agentic-ai?utm_source=youtube&utm_medium=social&utm_content=cs329z-01-what-are-agentic-systems\n\nLecture Overview:\nWhich framework should you use to build AI agents? In this Stanford CS329Z: Engineering AI Agents lecture, DSPy contributor Michael Ry",
+"channel": "Stanford Online",
+"channel_id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+"mode": "ffilter",
+"duration_s": 4634,
+"views": 23772
 }
 ]
